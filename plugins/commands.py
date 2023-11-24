@@ -55,7 +55,7 @@ async def start(client, message):
                     InlineKeyboardButton('💸 Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
                     InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url='https://t.me/funkomovies')
                 ],[
-                    InlineKeyboardButton('🆘 Hᴇʟᴘ 🆘', callback_data='help'),
+                    InlineKeyboardButton('⌬ Hᴇʟᴘ ⌬', callback_data='help'),
                     InlineKeyboardButton('💎 Aʙᴏᴜᴛ 💎', callback_data='about')
                 ],[
                   InlineKeyboardButton('💌 SOURCE CODE 💌', callback_data='source')
