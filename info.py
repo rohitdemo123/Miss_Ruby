@@ -26,7 +26,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/b3ea5679a504ac613d350.jpg https://telegra.ph/file/2d67786b341b5af70e6cf.jpg https://telegra.ph/file/b63750ea539b50ab04f90.jpg https://telegra.ph/file/2c5a543b1fc2f7fe7d697.jpg https://telegra.ph/file/441071ce20e07ad19d9b5.jpg https://telegra.ph/file/2242d4b54a6e384f22686.jpg https://telegra.ph/file/47ed99f4c51d20fa889b2.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://telegra.ph/file/b61646e19b005198b414d.jpg https://telegra.ph/file/5d7c19bdd8260d5b52af8.jpg https://telegra.ph/file/f76d084731e151b932ffe.jpg https://telegra.ph/file/ca5e56da63249f4085a1a.jpg https://telegra.ph/file/32249e5f9d8d40c9e4c6c.jpg https://telegra.ph/file/954f364f69bba69930152.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
@@ -48,8 +48,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://batowaw488:0553569303@cluster0.76wnfl2.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "RIONETWORKS")
+DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
